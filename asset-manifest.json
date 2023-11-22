@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Reeyoga-website/static/css/main.6100975f.css",
+    "main.css": "/Reeyoga-website/static/css/main.f6530ae0.css",
     "main.js": "/Reeyoga-website/static/js/main.122779bd.js",
     "static/media/background-yoga-small.jpg": "/Reeyoga-website/static/media/background-yoga-small.edd9a981ccd4eba6612a.jpg",
     "static/media/pexels-photo-3094230.jpeg": "/Reeyoga-website/static/media/pexels-photo-3094230.b3db238d87e923b0cebe.jpeg",
@@ -25,11 +25,11 @@
     "static/media/youtube.png": "/Reeyoga-website/static/media/youtube.b4f2b64af1b614ce26dc.png",
     "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
     "index.html": "/Reeyoga-website/index.html",
-    "main.6100975f.css.map": "/Reeyoga-website/static/css/main.6100975f.css.map",
+    "main.f6530ae0.css.map": "/Reeyoga-website/static/css/main.f6530ae0.css.map",
     "main.122779bd.js.map": "/Reeyoga-website/static/js/main.122779bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6100975f.css",
+    "static/css/main.f6530ae0.css",
     "static/js/main.122779bd.js"
   ]
 }
