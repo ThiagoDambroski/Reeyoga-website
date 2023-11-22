@@ -1,0 +1,193 @@
+.buy-class-page{
+    display: flex;
+    padding-top: 10px;
+    overflow: hidden;
+    
+}
+
+.buy-class-informations{
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    z-index: 9;
+}
+
+.buy-class-informations h1{
+    font-family: 'beloved';
+    font-size: 60px;
+    color: burlywood;
+    margin-bottom: 0px;
+}
+
+.buy-class-informations p {
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'lato-thin';
+    text-align: start;
+}
+
+.buy-class-button {
+    width: 35%;
+    background-color: burlywood; 
+    color: #fff; 
+    padding: 20px ;
+    font-size: 15px;
+    font-family: 'lato';
+    border: none; 
+    border-radius: 40px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.buy-class-button:hover {
+    background-color: rgb(184, 126, 52);
+}
+
+.buy-class-photos {
+    width: 50%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 50px;
+    margin-right: 10px;
+ 
+    
+}
+
+.buy-class-carousel-container {
+    display: flex;
+    
+    transition: transform 0.5s ease; 
+}
+
+.buy-class-carousel-item {
+    display: flex;
+    width: 25vw;
+    flex: 0 0 100%;
+
+  }
+
+
+
+
+.small-carrousel-container{
+    position: relative;
+    margin-right: 15px;
+    margin-left: 10px
+  
+}
+
+.arrow {
+    cursor: pointer;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+   
+    z-index: 1;
+}
+
+.small-carrousel-image{
+    border: 1px solid rgb(172, 167, 167);
+    border-radius: 5px;
+    width: 48vw;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+}
+
+.small-carrousel-image:hover{
+    cursor: pointer;
+}
+
+
+.lightbox{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    background-color: #3a3a3a;
+    position: relative;
+
+    overflow-x: hidden;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #aaa #fff; /* For Firefox */
+    z-index: 10;
+}
+
+.lightbox-image{
+    max-width: 80vw;
+    z-index: 10;
+}
+
+.close-button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #ffff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .buy-class-page{
+        flex-direction: column-reverse;
+    }
+
+    .buy-class-informations {
+        width: 80%;
+    }
+    .buy-class-informations p {
+        font-size: 15px
+    }
+
+    .buy-class-informations h1{
+        font-size: 35px;
+    }
+
+    .buy-class-button{
+        border-radius: 10px;
+        width: 45%;
+        font-size: 13px
+    }
+
+    .buy-class-carousel-container{
+        width: 100vw;
+    }
+
+    .buy-class-carousel-item {
+        align-items: center;
+        justify-content: center;
+        
+        width: 100vw;
+    }
+    .buy-class-photos {
+        padding-top: 0px;
+    }
+    
+    .small-carrousel-image{
+        width: 100vw;
+    }
+
+    
+}

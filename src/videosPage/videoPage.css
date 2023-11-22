@@ -1,0 +1,144 @@
+.video-page{
+    min-height: 120vh;
+    overflow: hidden;
+    display: flex;
+    transition: 0.3s all ease-in;
+
+}
+
+.video-page-arrow{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-right: 10px;
+    
+}
+
+.video-carousel-container {
+    display: flex;
+   
+    transition: transform 0.5s ease; /* Add transition property */
+  }
+  
+  .video-carousel-item {
+    display: flex;
+    width: 50vw;
+    flex: 0 0 100%;
+    
+  }
+
+.video-page-arrow:hover {
+    cursor: pointer;
+}
+
+.video-page-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;    
+   
+
+}
+
+.video-page-video{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.iframe{
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    border: 1px solid rgba(92, 92, 92, 0.705);
+    margin-bottom: 5px;
+}
+
+
+
+.video-page-video button {
+    background: rgba(204, 203, 203, 0.404); 
+    border: 2px solid #97979777; 
+    color: rgb(5, 5, 5); 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-family: 'antipasto';
+    font-size: 15px;
+    transition: background 0.5s, color 0.5s; 
+  }
+  .video-page-video button:hover {
+    background: #ee0202; 
+    /*#ee0202*/
+    border: 2px solid #f0050577; 
+    color: #fff; 
+  }
+.video-page-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 46vw;
+    max-height: 95%;
+    border-radius: 5px;
+    white-space: break-spaces;
+   
+    
+}
+
+.video-page-info h1{
+    font-family: 'zen';
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.video-page-info p {
+    max-width: 85%;
+    font-family: 'lato';
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0px;
+}
+@media only screen and (max-width: 800px) {
+
+    .video-page{
+        min-height: 72vh;
+       
+    }
+
+    .video-page-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+       
+    }
+
+    .iframe{
+        width: 350px;
+        height: 200px;
+        
+    }
+    .video-page-info{
+        align-self: center;
+        width: 70vw;
+        padding-bottom: 5px;
+    }
+
+    
+
+    .video-page-info h1{
+        font-size: 35px
+    }
+
+    .video-page-info p{
+        font-size: 10px;
+    }
+    
+    .video-page-video button {
+        margin-bottom:  25px;
+    }
+    
+}

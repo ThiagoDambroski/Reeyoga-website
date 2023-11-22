@@ -1,0 +1,263 @@
+.about-me-page{
+    overflow: hidden;
+    padding-top: 30px;
+    display: flex;
+    
+}
+
+
+.about-me-image{
+    background-color: white;
+    z-index: 2;
+    padding-left: 10px;
+    width: 40vw;
+    height: 90vh;
+    margin-right: -20px;
+    
+}
+
+.about-me-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.about-me-informations{
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-informations-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-informations-title img{
+    max-width: 5%;
+    padding-bottom: 20px;
+}
+
+.about-me-informations-title img:hover{
+    cursor: pointer;
+}
+
+.about-me-informations h1{
+    margin-top: 0px;
+    margin-left: 5px;
+    color: burlywood;
+    font-family: 'beloved';
+}
+
+.carousel-container {
+    display: flex;
+    z-index: 0;
+    transition: transform 0.5s ease; /* Add transition property */
+}
+
+.carousel-item{
+    display: flex;
+    width: 20vw;
+    flex: 0 0 100%;
+}
+
+
+.type-text{
+    margin-top: 0px;
+    max-width: 80%;
+    font-size: 25px;
+    font-weight: 500;
+    font-weight: bolder;
+    font-family: 'zen';
+    text-align: justify;
+}
+
+.about-me-informations-company-card{
+    width: 60%;
+    border-radius: 20px;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.about-me-informations-company-card:hover{
+    cursor: pointer;
+    background-color: rgb(151, 151, 151);
+}
+
+.about-me-informations-company-card img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.company-card-informations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+
+
+
+.company-card-informations p{
+    margin: 0px;
+    
+}
+
+.company-card-informations-name {
+    font-family: 'antipasto';
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.company-card-informations-local{
+    font-family: 'antipasto';
+    color: rgb(109, 109, 109);
+    font-size: 15px;
+}
+
+.company-card-informations-function-box{
+    align-self: center;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+.company-card-informations-function{
+    font-family: 'cond';
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(126, 5, 106);
+}
+
+.company-card-informations-year{
+    color: dimgrey;
+    
+    
+}
+
+.education-type {
+    border: 1px solid rgb(136, 136, 136);
+    padding: 5px;
+    border-radius: 5px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+
+}
+
+.education-type:hover{
+    cursor: pointer;
+    width: 46%;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.education-type img {
+    width: 15%;
+  
+    justify-self: flex-start;
+   
+}
+
+.education-type p {
+    margin: 0px;
+}
+
+.education-flex{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.education-name {
+    font-family: 'antipasto';
+    font-size: 25px;
+}
+
+.education-time{
+    font-family: 'cond';
+    color: gray;
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    
+    
+    .about-me-page{
+        flex-direction: column;
+        
+    }
+
+
+
+    .about-me-image{
+        width: 95vw;
+        height: 45%;
+        
+    }
+
+    .carousel-item{
+        width: 35vw;
+        
+    }
+
+    .about-me-informations{
+        max-width: 120vw;
+       
+    }
+
+    .about-me-informations h1 {
+        font-size: 30px;
+    }
+    .about-me-informations-title img {
+        max-width: 10%;
+    }
+    
+    .type-text {
+        font-size: 17px;
+    }
+
+    .company-card-informations-name{
+        font-size: 25px;
+    }
+    
+    .company-card-informations-function{
+        font-size: 15px;
+    }
+
+    .about-me-informations-company-card{
+        width: 80%;
+    }
+
+    .about-me-informations-company-card img{
+        width: 25%;
+    }
+
+    .education-type{
+        width: 80%;
+    }
+
+    .education-type:hover {
+        width: 82%;
+    }
+
+    .company-card-informations-year{
+        font-size: 14px;
+    }
+    
+}

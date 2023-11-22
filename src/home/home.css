@@ -1,0 +1,75 @@
+.home-page {
+    background-image: url('../assets/Home/background-yoga-small.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info{
+    margin-bottom: 220px;
+}
+
+.home-page h1 {
+    color: rgb(3, 139, 55);
+    font-size: 55px;
+    font-family: 'flow';
+
+
+    
+}
+
+.contact-me-button{
+    background: #ffffff7c;
+    border: 1px solid rgba(255, 255, 255, 0.479);
+    border-radius: 10px;
+    color: rgb(3, 139, 55); 
+    padding: 10px 15px;
+    font-weight: bolder;
+    font-family: 'zen';
+    font-size: 40px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border 0.3s; 
+    outline: none; 
+    transition: all 1s;
+}
+
+.contact-me-button:hover{
+    background-color: black;
+    color: #fff; /* Text color on hover */
+    border: 1px solid white; /* Border color on hover */
+}
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-200%); 
+      opacity: 0; 
+    }
+    to {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+ @keyframes slideInFromRight {
+    from {
+      transform: translateX(200%); 
+      opacity: 0; 
+    }
+    to {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+  
+ 
+  .slide-in {
+    animation: slideInFromLeft 1.5s ease forwards; 
+  }
+
+  .slide-in-right{
+    animation: slideInFromRight 1.5s ease forwards;
+  }
