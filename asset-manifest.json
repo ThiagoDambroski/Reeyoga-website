@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Reeyoga-website/static/css/main.6100975f.css",
+    "main.js": "/Reeyoga-website/static/js/main.122779bd.js",
+    "static/media/background-yoga-small.jpg": "/Reeyoga-website/static/media/background-yoga-small.edd9a981ccd4eba6612a.jpg",
+    "static/media/pexels-photo-3094230.jpeg": "/Reeyoga-website/static/media/pexels-photo-3094230.b3db238d87e923b0cebe.jpeg",
+    "static/media/AntipastoPro_trial.ttf": "/Reeyoga-website/static/media/AntipastoPro_trial.88f060fc35a9f2de0ad5.ttf",
+    "static/media/regina.jpg": "/Reeyoga-website/static/media/regina.aa461d5b366b883aed7e.jpg",
+    "static/media/Intro Cond Light Free.otf": "/Reeyoga-website/static/media/Intro Cond Light Free.c17ad5c2a0dee5fd2a4f.otf",
+    "static/media/pexels-photo-3822906.jpeg": "/Reeyoga-website/static/media/pexels-photo-3822906.ccacb3a83be4663e8c96.jpeg",
+    "static/media/Lato-Regular.ttf": "/Reeyoga-website/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/yoga-icon.jpg": "/Reeyoga-website/static/media/yoga-icon.185f6142d2e9443d515e.jpg",
+    "static/media/shutterstock_324427688-1.jpg": "/Reeyoga-website/static/media/shutterstock_324427688-1.6b51e4c76c254c3c9b83.jpg",
+    "static/media/Lato-Thin.ttf": "/Reeyoga-website/static/media/Lato-Thin.5a60dde25d817751d590.ttf",
+    "static/media/pexels-photo-8613312.jpeg": "/Reeyoga-website/static/media/pexels-photo-8613312.f09da741bbaa94c03247.jpeg",
+    "static/media/Perfect Beloved.otf": "/Reeyoga-website/static/media/Perfect Beloved.fec26ebd002ea432c913.otf",
+    "static/media/flow____.ttf": "/Reeyoga-website/static/media/flow____.1ce8c4250b1c2b89068c.ttf",
+    "static/media/ZenLoop-Regular.ttf": "/Reeyoga-website/static/media/ZenLoop-Regular.8c579cc694500ba5251c.ttf",
+    "static/media/Yoga-for-Thyroid-1.jpg": "/Reeyoga-website/static/media/Yoga-for-Thyroid-1.26f1e794020ddc1fa9f6.jpg",
+    "static/media/pexels-photo-4056535.jpeg": "/Reeyoga-website/static/media/pexels-photo-4056535.6a503b835eb7d6858883.jpeg",
+    "static/media/whatsapp.png": "/Reeyoga-website/static/media/whatsapp.1dd8ca2765f1f177ab22.png",
+    "static/media/certificate.png": "/Reeyoga-website/static/media/certificate.6168f1fd3d768863f86f.png",
+    "static/media/instagram.png": "/Reeyoga-website/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "static/media/online-learning.png": "/Reeyoga-website/static/media/online-learning.fdc89f11799b09602528.png",
+    "static/media/youtube.png": "/Reeyoga-website/static/media/youtube.b4f2b64af1b614ce26dc.png",
+    "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
+    "index.html": "/Reeyoga-website/index.html",
+    "main.6100975f.css.map": "/Reeyoga-website/static/css/main.6100975f.css.map",
+    "main.122779bd.js.map": "/Reeyoga-website/static/js/main.122779bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6100975f.css",
+    "static/js/main.122779bd.js"
+  ]
+}
