@@ -10,10 +10,20 @@ import CarrouselVideos from './CarrouselVideos'
 function VideoPage() {
 
   const [videoIndex,setVideoIndex] = useState(0)
- /* #b7e2bd*/
+ /* #b7e2bd
+    #f0e9da
+ */
+
+ /*
+#280659
+#341671
+#c0b3cb
+#660f56
+#ae2d68
+*/
   const videosArray = [
     {
-      backgroundColor: '#f0e9da',
+      backgroundColor: 'rgba(167, 43, 144, 0.363)',
       videoId: 'Ptavpleb47o',
       videoTitle: 'Yoga no alto da sé',
       videoDescrption: "Com uma vista majestosa da cidade estendendo-se ao fundo, este vídeo oferece uma experiência única que combina posturas desafiadoras com profunda serenidade, criando um ambiente propício para o equilíbrio e bem-estar."+
@@ -22,7 +32,7 @@ function VideoPage() {
 
     },
     {
-      backgroundColor: 'rgba(123, 241, 250, 0.575)',
+      backgroundColor: '#c0b3cb',
       videoId: 'tKu02R_dJlo',
       videoTitle: 'Yoga no alto da sé 2',
       videoDescrption: "Situado no ponto mais alto da cidade, no Alto da Sé, onde a serenidade se encontra com uma vista deslumbrante da paisagem urbana, este envolvente vídeo apresenta uma prática de yoga que harmoniza posturas desafiadoras com uma profunda sensação de paz, promovendo equilíbrio e bem-estar." +

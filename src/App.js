@@ -7,6 +7,8 @@ import YogaBenefits from './yogaBenefits/YogaBenefits';
 import BuyClass from './buyClass/BuyClass';
 import Fqa from './FAQ/Fqa';
 import Footer from './footer/Footer';
+import AboutYoga from './about-yoga/AboutYoga';
+import Products from './products/Products';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
      <VideoPage/>
      <BuyClass/>
      <ContactMe/>
+     <AboutYoga />
+     <Products/>
      <YogaBenefits/>
      <Fqa/>
      <ContactMe/>

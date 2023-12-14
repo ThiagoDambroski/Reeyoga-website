@@ -1,0 +1,124 @@
+.about-yoga-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-yoga-page h1{
+    font-size: 45px;
+    color: #660f56;
+    font-family: 'moderrat';
+    align-self: center;
+    
+}
+
+.about-yoga-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-yoga-info p {
+    font-size: 28px;
+    font-weight: bold;
+    max-width: 52vw;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: 'zen';
+}
+
+.about-yoga-images{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin-right: 5px;
+    align-content: flex-start; 
+    border-radius: 5px;
+}
+
+.about-yoga-images img {
+    border: 1px solid rgb(255, 255, 255);
+    width: 48%;
+    height: 48%;
+    transition: all ease-in 0.2s;
+  
+}
+
+.about-yoga-images img:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48.5%;
+    height: 48.5%;
+}
+
+.about-yoga-page a {
+    align-self: center;
+    width: 25%;
+}
+
+.about-yoga-page button {
+    
+    
+    padding: 25px;
+    font-family: 'lato';
+    background-color: #8759af; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.about-yoga-page button:hover {
+    background-color: #4e3464; 
+}
+
+@media only screen and (max-width: 800px) {
+    .about-yoga-page h1{
+        font-size: 20px;
+        color: #660f56;
+        font-family: 'moderrat';
+        align-self: center;
+        
+    }
+
+    .about-yoga-info p {
+        margin-right: 5px;
+        font-size: 12px;
+        width: 50vw;
+    }
+
+    .about-yoga-images{
+    
+        display: flex;
+        flex-wrap: wrap;
+        width: 65vw;
+        
+    }
+    
+    .about-yoga-images img {
+        border: 1px solid rgb(255, 255, 255);
+        width: 48%;
+        height: 48%;
+        transition: all ease-in 0.2s;
+      
+    }
+    .about-yoga-page a {
+        align-self: center;
+        width: 40%;
+    }
+
+    .about-yoga-page button {
+
+        padding: 10px;
+        font-family: 'lato';
+        background-color: #8759af; 
+        color: white; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-size: 10px;
+        transition: background-color 0.3s ease;
+    }
+}

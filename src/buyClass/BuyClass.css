@@ -17,7 +17,7 @@
 .buy-class-informations h1{
     font-family: 'beloved';
     font-size: 60px;
-    color: burlywood;
+    color: #341671;
     margin-bottom: 0px;
 }
 
@@ -31,7 +31,7 @@
 
 .buy-class-button {
     width: 35%;
-    background-color: burlywood; 
+    background-color: #ae2d68; 
     color: #fff; 
     padding: 20px ;
     font-size: 15px;
@@ -45,7 +45,7 @@
 }
 
 .buy-class-button:hover {
-    background-color: rgb(184, 126, 52);
+    background-color: #6e183f; 
 }
 
 .buy-class-photos {

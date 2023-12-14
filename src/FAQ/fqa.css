@@ -1,5 +1,4 @@
 .fqa-page {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +48,9 @@
 }
 
 @media only screen and (max-width: 800px) {
-
+    .yoga-benefits-page{
+        height: 800px;
+    }
     .fqa-page h1 {
         font-size: 40px;
     }

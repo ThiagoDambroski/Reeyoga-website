@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 99w;
 
 }
 
@@ -17,6 +18,12 @@ body {
 @font-face {
   font-family: 'zen';
   src: url('assets/fonts/ZenLoop-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'moderrat';
+  src: url('assets/fonts/Moderrat.otf');
 }
 
 @font-face {

@@ -1,19 +1,31 @@
 .home-page {
-    background-image: url('../assets/Home/background-yoga-small.jpg');
+   /*background-image: url('../assets/Home/11.jpg');*/ 
     background-size: cover;
     background-position: center;
+    background-color: #660f56;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:top;
     align-items: center;
 }
-
+/*
+#280659
+#341671
+#c0b3cb
+#660f56
+#ae2d68
+*/
 .home-info{
-    margin-bottom: 220px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+/*
 .home-page h1 {
     color: rgb(3, 139, 55);
     font-size: 55px;
@@ -21,21 +33,29 @@
 
 
     
+}*/
+
+.home-page img {
+  max-width: 800px;
+  border-radius: 500px;
+  margin-top: 10px;
 }
 
 .contact-me-button{
     background: #ffffff7c;
     border: 1px solid rgba(255, 255, 255, 0.479);
     border-radius: 10px;
-    color: rgb(3, 139, 55); 
+    color: rgb(10, 117, 81); 
     padding: 10px 15px;
     font-weight: bolder;
     font-family: 'zen';
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     transition: background 0.3s, color 0.3s, border 0.3s; 
     outline: none; 
     transition: all 1s;
+    margin-top: 5px;
+    
 }
 
 .contact-me-button:hover{

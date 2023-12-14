@@ -1,5 +1,5 @@
 .yoga-benefits-page{
-    height: 550px;
+    min-height: 550px;
 }
 
 .yoga-benefits-title{
@@ -45,9 +45,7 @@
 
 @media only screen and (max-width: 800px) {
 
-    .yoga-benefits-page{
-        height: 90vh;
-    }
+    
 
     .yoga-benefits-card{
         width: 46%; 

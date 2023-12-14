@@ -1,12 +1,20 @@
-import React, { useDebugValue, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './BuyClass.css'
 
-import placeHolder from '../assets/BuyClass/Yoga-for-Thyroid-1.jpg'
-import placeHolder2 from '../assets/BuyClass/pexels-photo-3822906.jpeg'
-import placeHolder3 from '../assets/BuyClass/pexels-photo-4056535.jpeg'
-import placeHolder4 from '../assets/BuyClass/pexels-photo-3094230.jpeg'
-import placeHolder5 from '../assets/BuyClass/pexels-photo-8613312.jpeg'
-import placeHolder6 from '../assets/BuyClass/shutterstock_324427688-1.jpg'
+import image from '../assets/BuyClass/1.jpg'
+//import image2 from '../assets/BuyClass/2.jpg'
+import image3 from '../assets/BuyClass/3.jpg'
+import image4 from '../assets/BuyClass/4.jpg'
+import image5 from '../assets/BuyClass/5.jpg'
+import image6 from '../assets/BuyClass/6.jpg'
+import image7 from '../assets/BuyClass/7.jpg'
+//import image8 from '../assets/BuyClass/8.jpg'
+//import image9 from '../assets/BuyClass/9.jpg'
+//import image10 from '../assets/BuyClass/10.jpg'
+import image11 from '../assets/BuyClass/11.jpg'
+import image12 from '../assets/BuyClass/12.jpg'
+import image14 from '../assets/BuyClass/14.jpg'
+
 
 
 import SmallCarrousel from './SmallCarrousel'
@@ -24,13 +32,15 @@ function BuyClass() {
         document.body.classList.remove('no-scroll');
     }
 
-    const imageArray = [placeHolder,placeHolder2,placeHolder3]
+    const imageArray = [image,image5,image12,image11]
 
-    const imageArray2 = [placeHolder4,placeHolder5,placeHolder6]
+    const imageArray2 = [image4,image6,image7,image3,image14]
 
     const [index,setIndex] = useState(0)
 
     const [index2,setIndex2] = useState(0)
+
+
 
     useEffect(() => {
       const interval1 = setInterval(() => {
@@ -115,7 +125,7 @@ function BuyClass() {
                 <img src={lightBoxOpen.photo} className='lightbox-image'/>
             </div>
         </div>
-     )}
+        )}
         
 
 

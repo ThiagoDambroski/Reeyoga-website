@@ -24,6 +24,7 @@
     display: flex;
     width: 50vw;
     flex: 0 0 100%;
+
     
   }
 
@@ -105,7 +106,7 @@
 @media only screen and (max-width: 800px) {
 
     .video-page{
-        min-height: 72vh;
+        min-height: 0px;
        
     }
 
@@ -113,6 +114,7 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 70%;
+        margin-bottom: 10px;
        
     }
 

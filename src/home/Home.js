@@ -1,5 +1,7 @@
 import React from 'react';
 import './home.css'
+
+import logo from '../assets/Home/logo.png'
 function Home() {
 
   const openWhatsApp = () => {
@@ -16,16 +18,17 @@ function Home() {
   return (
     <div className='home-page'>
       <div className='home-info'>
-        <h1 className='slide-in'>Reeyôgar</h1>
-        <button
-          className='contact-me-button slide-in-right'
-          onClick={openWhatsApp}
-        >
-          Marque sua Aula
-        </button>
+        <img className='slide-in' src={logo}/>
+        
       </div>
     </div>
   );
 }
 
 export default Home;
+//<button
+//className='contact-me-button slide-in-right'
+//onClick={openWhatsApp}
+//>
+//Marque sua Aula
+//</button>

@@ -12,20 +12,28 @@
 
 .contact-me-border{
     width: 30%;
-    border: 2px solid rgb(112, 114, 116);
+    border: 2px solid #660f56;
+    /*rgb(112, 114, 116);*/
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80px;
 }
+/*
+#280659
+#341671
+#c0b3cb
+#660f56
+#ae2d68
+*/
 
 .contact-me-border h2{
     font-family: 'Lato';
     margin-bottom: 5px;
     font-weight: lighter;
     font-size: 25px;
-    color: rgb(2, 2, 2);
+    color: #341671;
     margin-top: 5px;
 }
 
