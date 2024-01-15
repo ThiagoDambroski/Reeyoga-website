@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reeyoga-website/static/css/main.09dd13ea.css",
-    "main.js": "/Reeyoga-website/static/js/main.e5c14847.js",
+    "main.js": "/Reeyoga-website/static/js/main.d76a31ea.js",
     "static/media/7.jpg": "/Reeyoga-website/static/media/7.85d9e105762426119333.jpg",
     "static/media/regina4.jpg": "/Reeyoga-website/static/media/regina4.6593af13e21b40f964f2.jpg",
     "static/media/Regina.jpg": "/Reeyoga-website/static/media/Regina.677eab9f1d9f741f7630.jpg",
@@ -34,10 +34,10 @@
     "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
     "index.html": "/Reeyoga-website/index.html",
     "main.09dd13ea.css.map": "/Reeyoga-website/static/css/main.09dd13ea.css.map",
-    "main.e5c14847.js.map": "/Reeyoga-website/static/js/main.e5c14847.js.map"
+    "main.d76a31ea.js.map": "/Reeyoga-website/static/js/main.d76a31ea.js.map"
   },
   "entrypoints": [
     "static/css/main.09dd13ea.css",
-    "static/js/main.e5c14847.js"
+    "static/js/main.d76a31ea.js"
   ]
 }
