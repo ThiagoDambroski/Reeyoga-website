@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Reeyoga-website/static/css/main.09dd13ea.css",
-    "main.js": "/Reeyoga-website/static/js/main.d76a31ea.js",
+    "main.css": "/Reeyoga-website/static/css/main.62034a56.css",
+    "main.js": "/Reeyoga-website/static/js/main.f3878e6c.js",
     "static/media/7.jpg": "/Reeyoga-website/static/media/7.85d9e105762426119333.jpg",
     "static/media/regina4.jpg": "/Reeyoga-website/static/media/regina4.6593af13e21b40f964f2.jpg",
     "static/media/Regina.jpg": "/Reeyoga-website/static/media/Regina.677eab9f1d9f741f7630.jpg",
+    "static/media/culinariaKit.png": "/Reeyoga-website/static/media/culinariaKit.c86dc72d934a4e7a07b6.png",
     "static/media/AntipastoPro_trial.ttf": "/Reeyoga-website/static/media/AntipastoPro_trial.88f060fc35a9f2de0ad5.ttf",
     "static/media/regina.jpg": "/Reeyoga-website/static/media/regina.aa461d5b366b883aed7e.jpg",
     "static/media/6.jpg": "/Reeyoga-website/static/media/6.163beb19e75fbef9ce83.jpg",
@@ -26,6 +27,7 @@
     "static/media/Perfect Beloved.otf": "/Reeyoga-website/static/media/Perfect Beloved.fec26ebd002ea432c913.otf",
     "static/media/flow____.ttf": "/Reeyoga-website/static/media/flow____.1ce8c4250b1c2b89068c.ttf",
     "static/media/ZenLoop-Regular.ttf": "/Reeyoga-website/static/media/ZenLoop-Regular.8c579cc694500ba5251c.ttf",
+    "static/media/colecaoYoga.jpg": "/Reeyoga-website/static/media/colecaoYoga.8b5a613b9fe5b32fdf74.jpg",
     "static/media/whatsapp.png": "/Reeyoga-website/static/media/whatsapp.1dd8ca2765f1f177ab22.png",
     "static/media/certificate.png": "/Reeyoga-website/static/media/certificate.6168f1fd3d768863f86f.png",
     "static/media/instagram.png": "/Reeyoga-website/static/media/instagram.75e0546a6b5abe4c0506.png",
@@ -33,11 +35,11 @@
     "static/media/youtube.png": "/Reeyoga-website/static/media/youtube.b4f2b64af1b614ce26dc.png",
     "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
     "index.html": "/Reeyoga-website/index.html",
-    "main.09dd13ea.css.map": "/Reeyoga-website/static/css/main.09dd13ea.css.map",
-    "main.d76a31ea.js.map": "/Reeyoga-website/static/js/main.d76a31ea.js.map"
+    "main.62034a56.css.map": "/Reeyoga-website/static/css/main.62034a56.css.map",
+    "main.f3878e6c.js.map": "/Reeyoga-website/static/js/main.f3878e6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09dd13ea.css",
-    "static/js/main.d76a31ea.js"
+    "static/css/main.62034a56.css",
+    "static/js/main.f3878e6c.js"
   ]
 }
