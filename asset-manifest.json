@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Reeyoga-website/static/css/main.49f55fbb.css",
-    "main.js": "/Reeyoga-website/static/js/main.f3878e6c.js",
+    "main.css": "/Reeyoga-website/static/css/main.31faf074.css",
+    "main.js": "/Reeyoga-website/static/js/main.ece31762.js",
     "static/media/7.jpg": "/Reeyoga-website/static/media/7.85d9e105762426119333.jpg",
     "static/media/regina4.jpg": "/Reeyoga-website/static/media/regina4.6593af13e21b40f964f2.jpg",
     "static/media/Regina.jpg": "/Reeyoga-website/static/media/Regina.677eab9f1d9f741f7630.jpg",
     "static/media/culinariaKit.png": "/Reeyoga-website/static/media/culinariaKit.c86dc72d934a4e7a07b6.png",
     "static/media/AntipastoPro_trial.ttf": "/Reeyoga-website/static/media/AntipastoPro_trial.88f060fc35a9f2de0ad5.ttf",
+    "static/media/package1.jpg": "/Reeyoga-website/static/media/package1.e6e5f01883ea8dac48fb.jpg",
     "static/media/regina.jpg": "/Reeyoga-website/static/media/regina.aa461d5b366b883aed7e.jpg",
     "static/media/6.jpg": "/Reeyoga-website/static/media/6.163beb19e75fbef9ce83.jpg",
     "static/media/regina3.jpg": "/Reeyoga-website/static/media/regina3.dc54358e6303d9c3cfd9.jpg",
     "static/media/1.jpg": "/Reeyoga-website/static/media/1.f0fd1f4b46d7a9461efd.jpg",
     "static/media/4.jpg": "/Reeyoga-website/static/media/4.b60554dd4b4ee9574866.jpg",
     "static/media/3.jpg": "/Reeyoga-website/static/media/3.c453f82c98f1a61da841.jpg",
+    "static/media/package2.jpg": "/Reeyoga-website/static/media/package2.afaf9c1ead3ea0d013fd.jpg",
     "static/media/regina2.jpg": "/Reeyoga-website/static/media/regina2.c088ff90a366eec3d7d5.jpg",
     "static/media/11.jpg": "/Reeyoga-website/static/media/11.a00a0968fc07787f8a8e.jpg",
     "static/media/5.jpg": "/Reeyoga-website/static/media/5.46b1e2decf6276107da8.jpg",
@@ -35,11 +37,11 @@
     "static/media/youtube.png": "/Reeyoga-website/static/media/youtube.b4f2b64af1b614ce26dc.png",
     "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
     "index.html": "/Reeyoga-website/index.html",
-    "main.49f55fbb.css.map": "/Reeyoga-website/static/css/main.49f55fbb.css.map",
-    "main.f3878e6c.js.map": "/Reeyoga-website/static/js/main.f3878e6c.js.map"
+    "main.31faf074.css.map": "/Reeyoga-website/static/css/main.31faf074.css.map",
+    "main.ece31762.js.map": "/Reeyoga-website/static/js/main.ece31762.js.map"
   },
   "entrypoints": [
-    "static/css/main.49f55fbb.css",
-    "static/js/main.f3878e6c.js"
+    "static/css/main.31faf074.css",
+    "static/js/main.ece31762.js"
   ]
 }
