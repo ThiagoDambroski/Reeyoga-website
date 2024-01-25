@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Reeyoga-website/static/css/main.31faf074.css",
-    "main.js": "/Reeyoga-website/static/js/main.ece31762.js",
+    "main.css": "/Reeyoga-website/static/css/main.7ab76498.css",
+    "main.js": "/Reeyoga-website/static/js/main.ea103c12.js",
     "static/media/7.jpg": "/Reeyoga-website/static/media/7.85d9e105762426119333.jpg",
     "static/media/regina4.jpg": "/Reeyoga-website/static/media/regina4.6593af13e21b40f964f2.jpg",
     "static/media/Regina.jpg": "/Reeyoga-website/static/media/Regina.677eab9f1d9f741f7630.jpg",
@@ -37,11 +37,11 @@
     "static/media/youtube.png": "/Reeyoga-website/static/media/youtube.b4f2b64af1b614ce26dc.png",
     "static/media/graduation-cap.png": "/Reeyoga-website/static/media/graduation-cap.8b2de6c5d2d117f3a232.png",
     "index.html": "/Reeyoga-website/index.html",
-    "main.31faf074.css.map": "/Reeyoga-website/static/css/main.31faf074.css.map",
-    "main.ece31762.js.map": "/Reeyoga-website/static/js/main.ece31762.js.map"
+    "main.7ab76498.css.map": "/Reeyoga-website/static/css/main.7ab76498.css.map",
+    "main.ea103c12.js.map": "/Reeyoga-website/static/js/main.ea103c12.js.map"
   },
   "entrypoints": [
-    "static/css/main.31faf074.css",
-    "static/js/main.ece31762.js"
+    "static/css/main.7ab76498.css",
+    "static/js/main.ea103c12.js"
   ]
 }
