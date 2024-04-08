@@ -32,9 +32,9 @@ function BuyClass() {
         document.body.classList.remove('no-scroll');
     }
 
-    const imageArray = [image,image5,image12,image11]
+    const imageArray = [image12,image11,image14]
 
-    const imageArray2 = [image4,image6,image7,image3,image14]
+    const imageArray2 = [image4,image6,image7,image3]
 
     const [index,setIndex] = useState(0)
 
@@ -61,25 +61,40 @@ function BuyClass() {
         return () => clearTimeout(timeout);
       }
     }, [userClicked]);
+
+    const openWhatsApp = () => {
+
+      const phoneNumber = '8192611571';
+  
+      const message = encodeURIComponent('Ola, eu gostaria de marcar uma aula de yoga.');
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+  
+      // Redirect to the WhatsApp URL.
+      window.open(whatsappURL, '_blank');
+    };
+  
     
       
  
   return (
     <div className='buy-class-page'>
         <div className='buy-class-informations'>
-            <h1>Marque sua aula hoje</h1>
-            <p>Descubra os benefícios transformadores do yoga e dê o primeiro passo em direção a uma vida mais saudável,
-            equilibrada e harmoniosa. Eu estou pronta para guiá-lo em sua jornada de autodescoberta e bem-estar.
-            <br/><br/>Com as práticas milenares do yoga, você poderá fortalecer seu corpo, acalmar sua mente e encontrar um 
-            equilíbrio profundo que o ajudará a lidar com o estresse da vida moderna. <br/><br/>Marque sua aula hoje e 
-            comece a investir em si mesmo, permitindo que o yoga o ajude a cultivar uma maior conexão consigo mesmo
-            e com o mundo ao seu redor.<br/><br/>Se você mora em Olinda, clique no botão abaixo para agendar sua aula na 
-            nossa sede local. Se você está fora de Olinda e deseja participar das nossas aulas online,
-            clique no botão "Aulas Online". Estamos comprometidos em oferecer uma experiência transformadora de yoga,
-            não importa onde você esteja. <br/> Esperamos vê-lo em breve!</p>
-            <div>
-                <button className='buy-class-button'>Marque Aula em Olinda-Pe</button>
-                <button className='buy-class-button'>Marque aula em outras regiões </button>
+            <h1>Monte seu grupo e marque sua aula</h1>
+            <p>Descubra os benefícios transformadores do yôga e dê o primeiro passo em direção a uma vida mais saudável,
+             equilibrada e harmoniosa. Eu estou pronta para guiá-lo em sua jornada de autodescoberta. 
+             bem-estar e conhecimento ancestral que você carrega dentro de si.
+            <br/><br/>
+            Com as práticas milenares do yôga, você poderá fortalecer seu corpo, conduzir sua mente e encontrar um 
+            equilíbrio profundo que o ajudará a lidar com o estresse da vida moderna, claro com a sua permissão interna.
+
+            <br/><br/>
+            Monteseu grupo e marque sua aula hoje e comece a investir em si mesmo, permitindo que o yôga o  
+            conduza a cultivar uma maior conexão consigo mesmo e com o mundo ao seu redor.
+            <br/><br/>
+            Monte seu grupo , não importa o lugar nós podemos estar juntos e fazer um dia memorável 
+            e criar uma nova percepção de vida.</p>
+            <div className='buy-classe-button-container'>
+                <button className='buy-class-button' onClick={() => openWhatsApp()}>Marque sua aula online </button>
             </div>
             
         </div>

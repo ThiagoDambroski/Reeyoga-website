@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  width: 99w;
+  
 
 }
 
@@ -49,4 +49,10 @@ body {
 @font-face {
   font-family: 'lato-thin';
   src: url('assets/fonts/Lato-Thin.ttf');
+}
+
+@media only screen and (max-width: 800px) {
+  body{
+    max-width: 100vw;
+  }
 }

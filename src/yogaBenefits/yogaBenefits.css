@@ -44,22 +44,32 @@
 }
 
 @media only screen and (max-width: 800px) {
-
     
+    .yoga-benefits-page{
+        height: 700px;
+    }
+
+    .yoga-benefits-title {
+        font-size: 25px;
+    }
 
     .yoga-benefits-card{
-        width: 46%; 
-        height: 60%;
+        width: 140px; 
+        min-height: 190px;
+        height: 190px;
         
     }
 
     .yoga-benefits-card h1 { 
         font-size: 30px;
+        margin-bottom: 0px;
     }
 
     .yoga-benefits-card p {
-        font-size: 12px;
-        text-align: start;
+        margin-top: 5px;
+        font-size: 14px;
+        font-family: 'zen';
+        font-weight: bolder;
     }
 
 }

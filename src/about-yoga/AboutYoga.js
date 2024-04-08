@@ -42,9 +42,9 @@ function AboutYoga() {
               onClick={() => openLightBox(regina)}/>
               <img src={regina2} style={{borderTopRightRadius:'5px'}} alt='photo-yoga' 
               onClick={() => openLightBox(regina2)}/>
-              <img src={regina4} style={{borderBottomLeftRadius:'5px'}} alt='photo-yoga' 
+              <img src={regina4} className='only-pc' style={{borderBottomLeftRadius:'5px'}} alt='photo-yoga' 
               onClick={() => openLightBox(regina4)}/>
-              <img src={regina3 } style={{borderBottomRightRadius:'5px'}} alt='photo-yoga' 
+              <img className='only-pc' src={regina3 } style={{borderBottomRightRadius:'5px'}} alt='photo-yoga' 
               onClick={() => openLightBox(regina3)}/>
             </div>
             

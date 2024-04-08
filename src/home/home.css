@@ -93,3 +93,9 @@
   .slide-in-right{
     animation: slideInFromRight 1.5s ease forwards;
   }
+
+  @media only screen and (max-width: 800px) {
+    .home-page img {
+      max-width: 100vw;
+    }
+  }

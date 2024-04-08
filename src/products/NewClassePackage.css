@@ -1,0 +1,198 @@
+
+.lightbox-content{
+    
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: white;
+    max-height: fit-content;
+}
+
+.classe-package-content{
+    width: 70vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.classe-package-informations{
+    cursor: default;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.classe-package-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: #F1F1F1;
+}
+.classe-package-page-div{
+    display: flex;
+    align-items: center;
+}
+
+.classe-package-page-arrow{
+    width: 100px;
+    height: 100px;
+}
+
+.classe-package-page-arrow:hover{
+    cursor: pointer;
+}
+
+.classe-package-page h1{
+    
+    font-family: 'cond';
+}
+
+
+
+.classe-package-informations h2{
+    font-family: 'lato';
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.classe-package-informations p {
+    margin-top: 0px;
+   
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 65%;
+    font-weight: 100;
+    font-family: 'lato';
+}
+
+.classe-package-what-contain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 65%;
+}
+
+.classe-package-what-contain-div{
+    display: flex;
+    color: #8759AF;
+
+}
+
+.classe-package-what-contain-item{
+    font-family: 'lato';
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    
+    margin-left: 5px;
+   
+}
+
+.classe-package-what-contain-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #8759AF;
+    color: white;
+    border: 1px solid #8759AF;
+    border-radius: 5px;
+    padding: 15px;
+    width: 40%;
+    font-family: 'cond';
+    transition: 0.3s all ease-in;
+}
+
+.classe-package-what-contain-button:hover{
+    cursor: pointer;
+    
+    color: white;
+    background-color: rgb(77, 28, 119);
+}
+
+.classe-package-image{
+    width: 450px;
+    height: 600px;
+   
+    align-self: center;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 218, 218);
+}
+
+.carousel-container-package{
+    width: 100%;
+    display: flex;
+   
+    transition: transform 0.5s ease; /* Add transition property */
+}
+
+@media only screen and (max-width: 800px) {
+
+    .lightbox {
+        
+        align-items: center;
+    }
+
+    .close-button {
+        top: 0px;
+        right: 5px;
+        font-size: 20px;
+    }
+
+    .classe-package-page h1{
+        font-size: 25px;
+    }
+
+    .classe-package-page-arrow{
+        width: 60px;
+        height: 60px;
+    }
+
+    .classe-package-content{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .classe-package-informations h2{
+        font-size: 15px;
+        
+        justify-self: center;
+    }
+
+    .classe-package-informations p { 
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .classe-package-what-contain-item{
+        font-size: 10px;
+    }
+
+    .classe-package-what-contain-button{
+        padding: 8px;
+        width: 120px;
+        font-size: 10px;
+    }
+    
+
+    .classe-package-informations{
+        width: 85vw;
+        align-self: center;
+    }
+
+    .classe-package-image{
+        justify-self: flex-start;
+        width: 70vw;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+}
