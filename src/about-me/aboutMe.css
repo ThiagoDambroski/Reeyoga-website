@@ -62,7 +62,7 @@
 .carousel-container {
     display: flex;
     z-index: 0;
-    transition: transform 0.5s ease; /* Add transition property */
+    transition: transform 0.5s ease; 
 }
 
 .carousel-item{
@@ -188,7 +188,7 @@
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
 }
 
 .education-name {

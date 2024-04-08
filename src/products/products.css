@@ -43,7 +43,7 @@
 }
 
 .product-container {
-    flex: 0 0 auto; /* Prevent items from shrinking */
+    flex: 0 0 auto; 
     width: 230px;
     height: 360px;
     background-color: white;
@@ -60,7 +60,7 @@
 
 
 .product-container img{
-    
+    user-select:none;
     width: 90%;
     height: 40%;
     border: 1px solid rgba(201, 201, 201, 0.555);
@@ -121,7 +121,7 @@
 }
 
 .product-container-link:visited {
-    color: #AE2D68; /* Set the visited link color to a different color, e.g., purple */
+    color: #AE2D68; 
   }
 
 @media only screen and (max-width: 800px) {

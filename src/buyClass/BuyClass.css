@@ -142,6 +142,7 @@
 
 .lightbox-image{
     max-width: 80vw;
+    max-height: 95vh;
     z-index: 10;
 }
 

@@ -60,8 +60,8 @@
 
 .contact-me-button:hover{
     background-color: black;
-    color: #fff; /* Text color on hover */
-    border: 1px solid white; /* Border color on hover */
+    color: #fff; 
+    border: 1px solid white; 
 }
 
 @keyframes slideInFromLeft {

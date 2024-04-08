@@ -103,6 +103,42 @@ function Products() {
       link: "https://www.google.com",
       type: "product",
     },
+    {
+      title: "Oleo de Yoga Final",
+      image: product1,
+      price: "80,00",
+      description:
+        "O Óleo de Yoga é uma fusão harmoniosa de óleos essenciais cuidadosamente selecionados para elevar a experiência da prática de yoga.",
+      link: "https://www.google.com",
+      type: "product",
+    },
+    {
+      title: "Oleo de Yoga Final",
+      image: product1,
+      price: "80,00",
+      description:
+        "O Óleo de Yoga é uma fusão harmoniosa de óleos essenciais cuidadosamente selecionados para elevar a experiência da prática de yoga.",
+      link: "https://www.google.com",
+      type: "product",
+    },
+    {
+      title: "Oleo de Yoga Final",
+      image: product1,
+      price: "80,00",
+      description:
+        "O Óleo de Yoga é uma fusão harmoniosa de óleos essenciais cuidadosamente selecionados para elevar a experiência da prática de yoga.",
+      link: "https://www.google.com",
+      type: "product",
+    },
+    {
+      title: "Oleo de Yoga Final",
+      image: product1,
+      price: "80,00",
+      description:
+        "O Óleo de Yoga é uma fusão harmoniosa de óleos essenciais cuidadosamente selecionados para elevar a experiência da prática de yoga.",
+      link: "https://www.google.com",
+      type: "product",
+    },
   ];
   const scrollRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -115,7 +151,7 @@ function Products() {
     const handleMove = (e) => {
       if (!isDragging) return;
       const x = e.touches ? e.touches[0].pageX : e.pageX;
-      const walk = (x - startX) * 1; // Adjust the multiplier as needed
+      const walk = (x - startX) * 1;
       scrollRef.current && (scrollRef.current.scrollLeft = scrollLeft - walk);
     };
 
@@ -123,17 +159,15 @@ function Products() {
       setIsDragging(false);
     };
 
-    // Auto-scrolling interval
     const interval = setInterval(() => {
       if (!isDragging && !userClicked && scrollRef.current) {
-        scrollRef.current.scrollLeft += 1; // Adjust the scrolling speed as needed
+        scrollRef.current.scrollLeft += 1;
 
-        // Check if the scroll reaches the end, and smoothly reset to the beginning
         if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
           scrollRef.current.scrollLeft = 0;
         }
       }
-    }, 30); // Adjust the interval as needed
+    }, 30);
 
     setAutoScrollInterval(interval);
 
@@ -152,7 +186,7 @@ function Products() {
   }, [isDragging, userClicked, startX, scrollLeft]);
 
   const handleStart = (e) => {
-    clearInterval(autoScrollInterval); // Stop auto-scrolling on touch/click
+    clearInterval(autoScrollInterval);
     setIsDragging(true);
     setUserClicked(true);
     const x = e.touches ? e.touches[0].pageX : e.pageX;
